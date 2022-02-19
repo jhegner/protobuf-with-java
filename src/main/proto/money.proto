@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// Representa um valor em dinheiro com o respectivo tipo da moeda
+message Money{
+
+  // Comment
+  string currencyCode = 1;
+
+  // Comment
+  int64 units = 2;
+
+  // Comment
+  int64 nanos  = 3;
+
+}
+
